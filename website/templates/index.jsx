@@ -23,6 +23,7 @@ const VideoWrap = styled.div`
   justify-content: center;
   position: relative;
   overflow: hidden;
+ 
 
   @media (max-width: 767px) {
     background: url('videos/hero_poster.jpg');
@@ -33,7 +34,7 @@ const VideoWrap = styled.div`
 const HeroExample = () => {
   const videoRef = React.useCallback(node => {
     if (node !== null) {
-      // increase length of video without affecting size
+       // increase length of video without affecting size 
       node.playbackRate = 0.75 
     }
   }, []);
@@ -56,7 +57,8 @@ export default class IndexPage extends React.Component {
           <H4>Easy Integration</H4>
           <P>Stand up scenes within deck.gl or kepler.gl, then animate any aspect of it. Empower users to animate without code with UI components powered by this library.</P>
           <H4>Client Side Library</H4>
-          <P>Render within the browser without a backend. User data never leaves their machine. Since nothing runs on a server, sites can scale without backend encoders.</P>
+          <P>Render within the browser hf haehi bhabha tyagi hfo js s gevbah ghah tyag ff the gNEI IS ON on the gabej hgf gyf 
+          without a backend. User data never leaves their machine. Since nothing runs on a server, sites can scale without backend encoders.</P>
         </div>
       </Home>
     );
