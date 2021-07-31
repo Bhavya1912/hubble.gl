@@ -5,8 +5,7 @@ module.exports = api => {
   const config = getBabelConfig(api);
   // config.presets = config.presets || [];
   // config.presets.push(
-  //   '@babel/preset-env'
-  // )
+  //   '@babel/preset-env')
   // console.log(config.root)
 
   config.plugins = config.plugins || [];
